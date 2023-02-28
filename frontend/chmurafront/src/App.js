@@ -22,9 +22,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-      {/* {isLoggedIn == false ? 
+      {isLoggedIn == false ? 
                 <Route exact path="/*" element={<Login/>} /> :
-                <Route path="/" element={<Files />} />} */}
+                <Route path="/" element={<Files />} />}
             <Route exact path="register" element={<Register/>} />
             <Route exact path="login" element={<Login/>} />
             <Route exact path="files" element={<Files/>} />
