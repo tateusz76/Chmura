@@ -1,0 +1,39 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .submitbtn {
+    padding: 16px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 30vh;
+    opacity: 0.9;
+    background-color: #33a036;
+    color: white;
+    border-radius: 3pt;
+  }
+  
+  .submitbtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .loginForm {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .labelForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  
+  .loginError {
+    color: red;
+    display: flex;
+    margin-top: 3vh;
+  }
